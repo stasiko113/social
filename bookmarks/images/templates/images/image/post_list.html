@@ -1,0 +1,19 @@
+{% for image in images %}
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2><a href="{{ image.get_absolute_url }}">{{image.title}}</a></h2>
+            <h5><a href="{{ image.user.get_absolute_url }}">{{image.user.first_name}} {{image.user.last_name}}</a>
+                {{image.created|timesince}}</h5>
+            <a href="{{ image.get_absolute_url }}">
+                <img src="/media/{{ image.image }}">
+            </a>
+            <p>{{image.description|safe}}</p>
+            <a href="{{image.get_absolute_url}}">
+                <div class="footer">
+                    Watch more...
+                </div>
+            </a>
+        </div></div></div>
+{% endfor %}
+

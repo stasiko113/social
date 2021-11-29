@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Edit your post{% endblock %}
+{% block content %}
+    <h1>Edit your post</h1>
+    <p>You can edit your post using the following form:</p>
+    <form action="{% url 'images:edit' id=edit_form.instance.pk %}" method="post" enctype="multipart/form-data">
+        {{ edit_form.as_p }}
+        {{ edit_form.media }}
+        {% csrf_token %}
+        <p><input type="submit" value="Save changes"></p>
+    </form>
+{% endblock %}

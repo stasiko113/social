@@ -1,0 +1,8 @@
+Django==3.2.9
+bootsrap5
+psycorg2-binary==2.9.2
+django-postgresql==4.0
+tinymce==3.3.0
+djangorestframework==3.12.4
+sorl-thumbnail==12.7.0
+django_elasticsearch==0.4.2

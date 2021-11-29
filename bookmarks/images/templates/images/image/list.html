@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}All posts{% endblock %}
+{% block content %}
+  <h1>All posts</h1>
+  <div id="image-list">
+    {% include "images/image/post_list.html" %}
+    {% include "pagination.html" with page=images %}
+  </div>
+{% endblock %}

@@ -1,0 +1,575 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
+body {
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif;
+}
+
+p {
+    line-height: 1.8;
+}
+
+li>a {
+    color:#12c064;
+    text-decoration:none;
+    padding: 20px;
+}
+
+a {
+    color:#12c064;
+}
+
+li>a:hover {
+    color:#00a74f;
+}
+
+h1, h2, h3, h4, h5 , h6 { font-family: 'Muli', sans-serif; font-weight:normal; }
+
+h1 {
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+    margin:10px 0 20px 0;
+}
+
+h2 {
+    margin:30px 0 20px;
+}
+
+ol {
+    line-height:1.5;
+}
+
+#header {
+    padding:10px 100px;
+    font-size:14px;
+    background:#1d5037;
+    color:#fff;
+    border-bottom:4px solid #67b089;
+    overflow: hidden;
+}
+
+#header .logo {
+    font-family: 'Muli', sans-serif;
+    float:left;
+    color:#f3f7cc;
+    font-size:20px;
+    margin-right:10%;
+}
+
+#header ul.menu {
+    list-style:none;
+    float:left;
+    margin:0;
+    padding:0;
+}
+#header ul.menu li {
+    float:left;
+    padding:4px 10px;
+}
+
+#header ul.menu li.selected a, #header ul.menu li.selected a:hover {
+    color:#ffe28f;
+    font-weight:bold;
+}
+
+#header a {
+    color:#f3f7cc;
+}
+#header a:hover {
+    color:#fff;
+}
+
+#header .user {
+    float:right;
+    padding-top:4px;
+}
+
+#content {
+    padding:30px 100px;
+}
+
+/* forms */
+form {
+    overflow:auto;
+}
+
+form p {
+    width:100%;
+    overflow:auto;
+}
+
+label {
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px;
+}
+input, textarea {
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    background:white;
+    border:0;
+    padding:6px 10px;
+    font-size:14px;
+}
+input[type=submit], a.button {
+    font-weight:bold;
+    background:#1d5037;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase;
+}
+.errorlist {
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px;
+}
+.helptext {
+    margin:0 0 20px 0;
+    color:#aaa;
+    clear:both;
+    float:left;
+    font-size:13px;
+}
+/* messages */
+ul.messages {
+    margin:10px 100px;
+    padding:0;
+    list-style-type:
+    none;
+}
+ul.messages li.success,
+ul.messages li.warning,
+ul.messages li.error,
+ul.messages li.info {
+    margin:0;
+    padding:14px 20px;
+    list-style:none;
+    color:#fff;
+}
+
+ul.messages li.success { background:#81ce81; }
+ul.messages li.success a { color:#0ac33e; }
+
+ul.messages li.error { background:#a30029; color:#e9828e; }
+ul.messages li.error a { color:#e9828e; }
+
+ul.messages li.info { background:#faffae; color:#696b4e; }
+ul.messages li.info a { color:#1586de; }
+
+ul.messages li.warning { background:#de9404; }
+ul.messages li.warning a { color:#f49000; }
+
+ul.messages li a.close {
+    margin:0;
+    float:right;
+    opacity:1;
+    border:0;
+    box-shadow:#14371d;
+    text-shadow:none;
+}
+
+.login-form {
+    float:left;
+}
+
+/* social-auth */
+.social {
+    float:right;
+}
+.social li {
+    list-style:none;
+    padding:10px 20px;
+    margin:0 0 10px 0;
+}
+.social li a {
+    width:100%;
+    height:100%;
+    display:block;
+    color:#fff;
+}
+.social li.facebook { background:#3b5399; }
+.social li.twitter { background:#00cffa; }
+.social li.google { background:#de1710; }
+
+
+/* images */
+
+.image-preview, .image-detail {
+    max-width:500px;
+    float:left;
+    margin:0 20px 20px 0;
+
+}
+.image-detail { margin-top:20px; margin-left: 20px }
+.image-info div {
+    padding:20px 0;
+    overflow:auto;
+    display: inline-block;
+}
+.count {
+    color:#aaa;
+    border:3px solid #bbb;
+    border-radius:26px;
+    padding:10px 20px;
+    display: inline-block;
+    margin:20px 10px 0;
+}
+.image-info:hover. countlike{
+    display:block;
+    position:absolute;
+    top:120px;
+    z-index:9999;
+    width:400px;
+}
+a.like, a.follow { float:right; margin-top:24px; margin-right: 15px;   position: relative; }
+
+#image-list { overflow:auto; }
+#image-list .image {
+    float:left;
+    width:220px;
+    height:300px;
+    margin:0 10px 10px 10px;
+    border-top:8px solid #12c064;
+    background:#eee;
+}
+
+#image-list .info { padding:10px; }
+#image-list .info a { color:#333; }
+.image-likes div {
+    float:left;
+    width:auto;
+    text-align:left;
+}
+.image-likes img {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+
+
+/* users */
+#people-list img {
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+#people-list .user {
+    width:180px;
+    float:left;
+    overflow:auto;
+    padding:10px;
+}
+#people-list .info { text-align:center; }
+img.user-detail {
+    border-radius:50%;
+    float:left;
+}
+.profile-info {
+    float:left;
+    overflow:auto;
+    margin-right:20px;
+}
+.image-container { margin-top:40px; }
+
+/* actions */
+.action {
+    clear:both;
+    overflow:auto;
+}
+.action .images {
+    float:left;
+    margin:0 10px 10px 0;
+}
+.action .date {
+    font-style:italic;
+    color:#ccc;
+}
+
+main{
+    display: grid;
+    background-color: #559d7a;
+    color: #FFFFFF;
+}
+
+div > h4{
+    font-weight: bold;
+}
+
+
+.friends{
+    background-color: #306a4e;
+    line-height: 1.4;
+    border: #306a4e solid 2px;
+    border-radius: 4px;
+    width: 15%;
+    height: 100%;
+    overflow-y: scroll;
+    grid-area: sd;
+}
+
+.feed{
+    grid-area: main;
+    text-align: center;
+    width: 60%;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+
+.feed::first-line{
+    background-color: blue;
+}
+
+.post{
+    padding: 5px;
+    margin: 20px;
+    text-align: left;
+}
+
+.post > div{
+    box-shadow: 10px 5px 5px #2e4c3c;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+.poster{
+    position:relative;
+    margin:100px auto;
+    background:#ff6600;
+    height:200px;
+    width:150px;
+}
+.descr{
+    display:none;
+    margin-left:-350px;
+    padding:10px;
+    margin-top:17px;
+    background:#f3f3f3;
+    height:200px;
+    -moz-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow:0 5px 5px rgba(0,0,0,0.3);
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);
+}
+.poster:hover .descr{
+    display:block;
+    position:absolute;
+    top:120px;
+    z-index:9999;
+    width:400px;
+}
+input{
+    margin: 20px;
+    width: 50%;
+}
+
+main a{
+    text-decoration: none;
+    color: white;
+}
+
+main a:hover{
+    color: #E4E4E4;
+}
+
+/* comments */
+.comment {
+     border: 1px solid #666;
+     margin: 10px;
+     padding: 10px;
+     font-family: Tahoma;
+     font-size: 12px;
+     border-radius: 4px;
+     box-shadow: 2px 2px 2px #999;
+}
+.comment:nth-child(even) {
+    background-color: white ;
+}
+.comment .info {
+    font-weight:bold;
+    margin: 20px;
+    font-size:12px;
+    color:#666;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  width:auto;
+  color:#aaa;
+  border:3px solid #bbb;
+  border-radius:26px;
+  padding:10px 20px;
+  z-index: 1000;
+  margin:20px 10px 0;
+}
+
+/* Текст подсказки */
+.tooltip .tooltiptext {
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Расположите текст подсказки */
+  position: absolute;
+  top: 135%;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Исчезают в подсказке */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Подсказка стрелка */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Отображение текста подсказки при наведении курсора мыши на контейнер подсказки */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.dropbtn {
+  position: relative;
+  font-size: 16px;
+  border: none;
+  background: #1d5037;
+  cursor: pointer;
+  right: 50px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: absolute;
+  z-index: 1;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1d5037;
+  margin-right: 190px;
+  right:-130px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #ffe28f;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+
+/* post */
+
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+    display: block;
+}
+.post-card {
+    background-color: white;
+    padding: 40px;
+    display: block;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    display: inline-block;
+    width: 97%;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+.row img {
+    width:30%;
+    height:30%;
+    float:left;
+    margin: 7px 7px 7px 0;
+    display: inline-block;
+}
+.row a {
+    color: gray;
+}
+body {
+    font-family: Arial;
+    background: #f1f1f1;
+}
+
+.pagination {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: 400px;
+    margin-top: 20px;
+}
+

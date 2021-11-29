@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load thumbnail %}
+{% block title %}Search Image{% endblock %}
+{% block content %}
+    <h1>Search Post</h1>
+    <form method="get">
+        <input id="q" name="q" type="text" value="Search..." >
+        <input type="submit">
+    </form>
+        <div id="image-list" class="image-container">
+            {% include "images/image/post_list.html" with images=image %}
+        </div>
+{% endblock %}
