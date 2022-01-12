@@ -41,15 +41,12 @@ INSTALLED_APPS = [
     'account.apps.AccountConfig',
     'django.contrib.admin',
     'django.contrib.staticfiles',
-    'django_elasticsearch_dsl',
     'images.apps.ImagesConfig',
     'sorl.thumbnail',
     'actions.apps.ActionsConfig',
     'tinymce',
     'django.contrib.postgres',
-    'search.apps.SearchConfig',
     'rest_framework',
-    'bootstrap5'
 ]
 
 REST_FRAMEWORK = {
@@ -100,9 +97,10 @@ WSGI_APPLICATION = 'bookmarks.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'bookmarks',
-        'USER': 'bookmarks',
-        'PASSWORD': 'qwerty'
+        'NAME': 'test1',
+        'USER': 'test1',
+        'PASSWORD': 'test1',
+        'HOST': 'localhost'
     }
 }
 

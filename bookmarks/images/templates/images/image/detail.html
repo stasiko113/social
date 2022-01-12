@@ -46,19 +46,11 @@
         {{ comment.body }}
         </div>
         {% empty %}
-        <form action="." method="post">
-        {{ comment_form.as_p }}
-        {% csrf_token %}
-        <p><input type="submit" value="Add comment" style="width: 60%"></p>
-        </form>
+            <p> No commnts yetp</p>
     {% endfor %}
 
     {% if new_comment %}
-        <form action="." method="post">
-        {{ comment_form.as_p }}
-        {% csrf_token %}
-        <p><input type="submit" value="Add comment" style="width: 60%"></p>
-        </form>
+
     {% else %}
         <form action="." method="post">
         {{ comment_form.as_p }}
