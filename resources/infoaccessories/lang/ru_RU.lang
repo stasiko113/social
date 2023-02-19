@@ -1,0 +1,16 @@
+#Translated by LeoganPro
+
+#Items
+item.infoaccessories.info.accessory.stopwatch.name=Секундомер
+item.infoaccessories.info.accessory.sextant.name=Cекстант
+item.infoaccessories.info.accessory.depth.meter.name=Глубинный метр
+item.infoaccessories.info.accessory.debugger.name=Дебаггер
+item.infoaccessories.info.accessory.slimey.compass.name=Слизневый компасс
+item.infoaccessories.info.accessory.calendar.name=Календарь
+item.infoaccessories.info.accessory.biomealyzer.name=Анализатор биомов
+item.infoaccessories.info.accessory.chunker.name=Чанкер
+item.infoaccessories.info.accessory.dps.monitor.name=Счетчик урона [В разработке]
+item.infoaccessories.info.accessory.structure.name=Структура [В разработке]
+
+#Tooltip
+tooltip.infoaccessories.lack.item=Предмет должен быть в вашем инвентаре!

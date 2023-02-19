@@ -1,0 +1,15 @@
+setTranslatedTitle("advancements.stage3.waterwheel.title")
+
+setIcon("immersiveengineering:wooden_device1")
+
+setTranslatedDescription("advancements.stage3.waterwheel.description")
+
+setParent("triumph:stage3/creosote")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:wooden_device1", 0)
+
+//Rewards
+setRewardExperience(8)

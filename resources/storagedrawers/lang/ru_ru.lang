@@ -1,0 +1,216 @@
+#PARSE_ESCAPES
+#Translated by TimeConqueror
+itemGroup.storagedrawers=Storage Drawers
+itemGroup.storagedrawersSorting=Storage Drawers - Сортировка
+
+storagedrawers.container.drawers=Ящики
+storagedrawers.container.compDrawers=Сжимающие ящики
+storagedrawers.container.upgrades=Улучшения
+storagedrawers.container.drawer_controller=Контроллер ящиков
+storagedrawers.container.unboundSlave=Unbound Slave
+storagedrawers.container.framingTable=Обрамляющий стол
+
+storagedrawers.msg.maxUpgrades=Этот ящик не может принимать дополнительные улучшения.
+storagedrawers.msg.cannotAddUpgrade=Данное улучшение невозможно вставить в этот ящик.
+
+# Items
+item.storagedrawers.upgradeTemplate.name=Шаблон улучшения
+item.storagedrawers.upgradeStorage.obsidian.name=Улучшение хранилища (I)
+item.storagedrawers.upgradeStorage.iron.name=Улучшение хранилища (II)
+item.storagedrawers.upgradeStorage.gold.name=Улучшение хранилища (III)
+item.storagedrawers.upgradeStorage.diamond.name=Улучшение хранилища (IV)
+item.storagedrawers.upgradeStorage.emerald.name=Улучшение хранилища (V)
+item.storagedrawers.upgradeOneStack.name=Уменьшение хранилища
+item.storagedrawers.upgradeOneStack.description=Уменьшает базовую вместимость хранилища до одного стака
+item.storagedrawers.upgradeStatus.level1.name=Улучшение «Индикатор» (I)
+item.storagedrawers.upgradeStatus.level1.description=Показывает, когда ящик полностью заполнен
+item.storagedrawers.upgradeStatus.level2.name=Улучшение «Индикатор» (II)
+item.storagedrawers.upgradeStatus.level2.description=Показывает уровень заполнения
+item.storagedrawers.upgradeVoid.name=Пустотное улучшение
+item.storagedrawers.upgradeVoid.description=Уничтожает лишние предметы
+item.storagedrawers.upgradeConversion.name=Улучшение «Конвертация»
+item.storagedrawers.upgradeConversion.description=Автоматически конвертирует совместимые предметы
+item.storagedrawers.upgradeCreative.store.name=Творческое улучшение хранилища
+item.storagedrawers.upgradeCreative.store.description=Почти бесконечное хранилище
+item.storagedrawers.upgradeCreative.vend.name=Творческое улучшение продажи
+item.storagedrawers.upgradeCreative.vend.description=Неограниченный вывод предметов
+item.storagedrawers.upgradeRedstone.combined.name=Редстоуновое улучшение
+item.storagedrawers.upgradeRedstone.combined.description=Выдаёт сигнал, исходя из общей заполненности.
+item.storagedrawers.upgradeRedstone.max.name=Редстоуновое улучшение «Максимум»
+item.storagedrawers.upgradeRedstone.max.description=Излучает сигнал наиболее полного слота.
+item.storagedrawers.upgradeRedstone.min.name=Редстоуновое улучшение «Минимум»
+item.storagedrawers.upgradeRedstone.min.description=Излучает сигнал наименее полного слота.
+item.storagedrawers.drawerKey.name=Ключ от ящика
+item.storagedrawers.drawerKey.description=Запирает и отпирает ящики\nДержите в неведущей руке, чтобы запирать устанавливаемые ящики
+item.storagedrawers.shroudKey.name=Прячущий ключ
+item.storagedrawers.shroudKey.description=Показывает или прячет изображения предметов в ящике
+item.storagedrawers.quantifyKey.name=Ключ показа количества
+item.storagedrawers.quantifyKey.description=Показывает или прячет изображение хранимого количества предметов
+item.storagedrawers.personalKey.name=Персональный ключ
+item.storagedrawers.personalKey.description=Запрещает доступ другим игрокам
+item.storagedrawers.tape.name=Упаковочная лента
+item.storagedrawers.tape.description=Заклеивает ящики для их перемещения
+
+# Blocks
+tile.storagedrawers.basicDrawers.fulldrawers1.name=Базовый ящик
+tile.storagedrawers.basicDrawers.fulldrawers2.name=Базовые ящики 1x2
+tile.storagedrawers.basicDrawers.fulldrawers4.name=Базовые ящики 2x2
+tile.storagedrawers.basicDrawers.halfdrawers2.name=Половинные ящики 1x2
+tile.storagedrawers.basicDrawers.halfdrawers4.name=Половинные ящики 2x2
+
+tile.storagedrawers.customDrawers.fulldrawers1.name=Обрамлённый ящик
+tile.storagedrawers.customDrawers.fulldrawers2.name=Обрамлённые ящики 1x2
+tile.storagedrawers.customDrawers.fulldrawers4.name=Обрамлённые ящики 2x2
+tile.storagedrawers.customDrawers.halfdrawers2.name=Обрамлённые половинные ящики 1x2
+tile.storagedrawers.customDrawers.halfdrawers4.name=Обрамлённые половинные ящики 2x2
+
+tile.storagedrawers.fullCustom1.name=Обрамлённый ящик
+tile.storagedrawers.fullCustom2.name=Обрамлённые ящики 1x2
+tile.storagedrawers.fullCustom4.name=Обрамлённые ящики 2x2
+tile.storagedrawers.halfCustom2.name=Обрамлённые ящики 1x2
+tile.storagedrawers.halfCustom4.name=Обрамлённые ящики 2x2
+tile.storagedrawers.customTrim.name=Обрамлённая отделка
+
+tile.storagedrawers.compDrawers.name=Сжимающий ящик
+tile.storagedrawers.controller.name=Контроллер ящиков
+tile.storagedrawers.controllerSlave.name=Вспомогательное устройство контроллера
+tile.storagedrawers.framingTable.name=Обрамляющий стол
+
+tile.storagedrawers.trim.oak.name=Дубовая отделка
+tile.storagedrawers.trim.spruce.name=Еловая отделка
+tile.storagedrawers.trim.birch.name=Берёзовая отделка
+tile.storagedrawers.trim.jungle.name=Отделка из тропического дерева
+tile.storagedrawers.trim.acacia.name=Акациевая отделка
+tile.storagedrawers.trim.big_oak.name=Отделка из тёмного дуба
+
+tile.storagedrawers.keyButton.drawer.name=Drawer Key Button
+tile.storagedrawers.keyButton.concealment.name=Concealment Key Button
+tile.storagedrawers.keyButton.personal.name=Personal Key Button
+tile.storagedrawers.keyButton.quantify.name=Quantify Key Button
+
+storagedrawers.drawers.description=Holds %d stacks per drawer
+storagedrawers.drawers.sealed=Contents sealed within
+storagedrawers.upgrade.description=Increases storage to %d times base value
+storagedrawers.controller.description=Interact with a bank of connected drawers
+storagedrawers.controllerSlave.description=Extra attach points for controllers
+
+# Material
+storagedrawers.material=Material: %s
+storagedrawers.material.oak=Oak
+storagedrawers.material.spruce=Spruce
+storagedrawers.material.birch=Birch
+storagedrawers.material.jungle=Jungle
+storagedrawers.material.acacia=Acacia
+storagedrawers.material.dark_oak=Dark Oak
+
+# Integration
+storagedrawers.waila.empty=<Empty>
+storagedrawers.waila.level=Upgrade Level: %s
+storagedrawers.waila.drawer=#%s: %s
+storagedrawers.waila.limit=Stack Limit: %s (x%s)
+storagedrawers.waila.nolimit=Stack Limit: ∞
+storagedrawers.waila.locked=Locked
+storagedrawers.waila.void=Void
+storagedrawers.waila.sorting=Sorting
+storagedrawers.waila.protected=Protected
+storagedrawers.waila.config.displayContents=Slot Contents
+storagedrawers.waila.config.displayStackLimit=Stack Limit
+storagedrawers.waila.config.displayStatus=Upgrade Status
+
+# Configuration
+storagedrawers.config.title=Storage Drawers Configuration
+
+storagedrawers.config.general=General Settings
+storagedrawers.config.general.tooltip=This and that.
+
+storagedrawers.config.blocks=Block Settings
+storagedrawers.config.blocks.tooltip=Configure individual storage blocks.
+
+storagedrawers.config.blocks.fullDrawers1=Drawers 1x1
+storagedrawers.config.blocks.fullDrawers2=Drawers 1x2
+storagedrawers.config.blocks.fullDrawers4=Drawers 2x2
+storagedrawers.config.blocks.halfDrawers2=Compact Drawers 1x2
+storagedrawers.config.blocks.halfDrawers4=Compact Drawers 2x2
+storagedrawers.config.blocks.compDrawers=Compacting Drawer
+storagedrawers.config.blocks.controller=Drawer Controller
+storagedrawers.config.blocks.trim=Trim
+storagedrawers.config.blocks.controllerSlave=Controller Slave
+
+storagedrawers.config.upgrades=Upgrade Settings
+storagedrawers.config.upgrades.tooltip=Configure individual storage upgrades.
+
+storagedrawers.config.upgrades.level2Mult=Storage Multiplier (II)
+storagedrawers.config.upgrades.level3Mult=Storage Multiplier (III)
+storagedrawers.config.upgrades.level4Mult=Storage Multiplier (IV)
+storagedrawers.config.upgrades.level5Mult=Storage Multiplier (V)
+storagedrawers.config.upgrades.level6Mult=Storage Multiplier (VI)
+
+storagedrawers.config.prop.enableIndicatorUpgrades=Enable Indicator Upgrades
+storagedrawers.config.prop.enableStorageUpgrades=Enable Storage Upgrades
+storagedrawers.config.prop.enableLockUpgrades=Enable Drawer Locking
+storagedrawers.config.prop.enableShroudUpgrades=Enable Item Concealing
+storageDrawers.config.prop.enableQuantifiableUpgrades=Enable Quantity Display
+storagedrawers.config.prop.enablePersonalUpgrades=Enable Access Protection
+storagedrawers.config.prop.enableVoidUpgrades=Enable Void Upgrade
+storagedrawers.config.prop.enableCreativeUpgrades=Enable Creative Upgrade
+storagedrawers.config.prop.enableRedstoneUpgrades=Enable Redstone Upgrade
+storagedrawers.config.prop.enableSortingUpgrades=Enable Sorting Upgrade
+storagedrawers.config.prop.enableSortingUpgrades.tooltip=Refined Relocation must be loaded.
+storagedrawers.config.prop.renderStorageUpgrades=Render Storage Upgrades
+storagedrawers.config.prop.creativeTabVanillaWoods=Creative Tab Vanilla Woods
+storagedrawers.config.prop.creativeTabVanillaWoods.tooltip=Enable all vanilla wood styles on creative tab.
+storagedrawers.config.prop.enabled=Enabled
+storagedrawers.config.prop.enabled.tooltip=Enable block in game.
+storagedrawers.config.prop.baseStorage=Base Storage
+storagedrawers.config.prop.baseStorage.tooltip=Number of stacks held per drawer.
+storagedrawers.config.prop.recipeOutput=Recipe Output
+storagedrawers.config.prop.recipeOutput.tooltip=Number of items from single crafting.
+storagedrawers.config.prop.enableDrawerUI=Enable Drawer UI
+storagedrawers.config.prop.enableDrawerUI.tooltip=Shows item counts and provides upgrade management.
+storagedrawers.config.prop.enableSidedInput=Enable Sided Input
+storagedrawers.config.prop.enableSidedInput.tooltip=Other blocks can insert items into drawers.
+storagedrawers.config.prop.enableSidedOutput=Enable Sided Output
+storagedrawers.config.prop.enableSidedOutput.tooltip=Other blocks can extract items from drawers.
+storagedrawers.config.prop.enableItemConversion=Enable Item Conversion
+storagedrawers.config.prop.enableItemConversion.tooltip=Drawers auto-convert ore dictionary compatible items.
+storagedrawers.config.prop.enableFallbackRecipes=Enable Fallback Recipes
+storagedrawers.config.prop.enableFallbackRecipes.tooltip=Any valid plank wood can craft oak drawers.
+storagedrawers.config.prop.invertShift=Invert Sneak
+storagedrawers.config.prop.invertShift.tooltip=Inverts click and sneak+click behavior.
+storagedrawers.config.prop.enableDebugLogging=Enable Debug Logging
+storagedrawers.config.prop.enableDebugLogging.tooltip=Prints extra information to the logs.
+storagedrawers.config.prop.enableTape=Enable Tape
+storagedrawers.config.prop.enableTape.tooltip=For moving drawers with contents.
+storagedrawers.config.prop.wailaStackRemainder=WAILA amount presentation
+storagedrawers.config.prop.wailaStackRemainder.tooltip=How item amounts are displayed by WAILA.
+storagedrawers.config.prop.controllerRange=Controller Range
+storagedrawers.config.prop.controllerRange.tooltip=Range for detecting networked blocks.
+storagedrawers.config.prop.enableFramedDrawers=Enable Framed Drawers
+storagedrawers.config.prop.enableFramedDrawers.tooltip=Drawers with custom materials.
+storagedrawers.config.prop.defaultQuantify=Quantity Visible by Default
+storagedrawers.config.prop.defaultQuantify.tooltip=Drawers display quantity numbers when placed.
+
+storagedrawers.config.addons=Addons
+storagedrawers.config.addons.tooltip=Configure global addon pack settings.
+
+storagedrawers.config.addons.showNEI=Show Blocks in NEI
+storagedrawers.config.addons.showCreative=Show Blocks in Creative Tabs
+storagedrawers.config.addons.separateTabs=Separate Creative Tabs
+storagedrawers.config.addons.tooltip=Each pack uses its own tab instead of the Storage Drawers tab.
+
+storagedrawers.config.integration=Integration
+storagedrawers.config.integration.tooltip=Configure integration with other mods.
+
+storagedrawers.config.integration.enableAE2=Enable Applied Energistics 2 Integration
+storagedrawers.config.integration.enableWaila=Enable WAILA Integration
+storagedrawers.config.integration.enableThaumcraft=Enable Thaumcraft Integration
+storagedrawers.config.integration.enableMineTweaker=Enable MineTweaker Integration
+
+storagedrawers.config.registries=Registries
+storagedrawers.config.registries.tooltip=Configure compacting rules and ore dictionary substitution.
+
+storagedrawers.config.registries.compRules=Compacting Rules
+storagedrawers.config.registries.registerExtraCompRules=Register Extra Compacting Rules
+storagedrawers.config.registries.oreWhitelist=Ore Dictionary Whitelist
+storagedrawers.config.registries.oreBlacklist=Ore Dictionary Blacklist
+#Translated by TimeConqueror

@@ -1,0 +1,3 @@
+gamestage add @p baykok
+summon minecraft:fireworks_rocket ~ ~ ~
+say Вы научились создавать стрелы!

@@ -1,0 +1,7 @@
+#Русский перевод ItemStages
+tooltip.itemstages.name.default=Незнакомый предмет
+tooltip.itemstages.description=Вы еще не знаете, как это использовать.
+tooltip.itemstages.info=Откройте эпоху "%s".
+tooltip.itemstages.stage=Эпоха:
+
+message.itemstages.drop=Вы уронили %s.

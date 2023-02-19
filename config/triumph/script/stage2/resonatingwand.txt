@@ -1,0 +1,15 @@
+setTranslatedTitle("advancements.stage2.resonatingwand.title")
+
+setIcon("astralsorcery:itemwand")
+
+setTranslatedDescription("advancements.stage2.resonatingwand.description")
+
+setParent("triumph:stage2/enderman")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("astralsorcery:itemwand")
+
+//Rewards
+setRewardExperience(8)

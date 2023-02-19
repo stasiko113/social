@@ -1,0 +1,15 @@
+setTranslatedTitle("advancements.stage3.netherexbiome.title")
+
+setIcon("nex:block_ice_frostburn")
+
+setTranslatedDescription("advancements.stage3.netherexbiome.description")
+
+setParent("triumph:stage3/nether")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("entered_forest", "minecraft:location")
+criteria.setBiome("nex:arctic_abyss")
+
+//Rewards
+setRewardExperience(8)

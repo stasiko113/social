@@ -1,0 +1,15 @@
+setTranslatedTitle("advancements.stage3.buildcraft.title")
+
+setIcon("buildcrafttransport:pipe_cobble_item")
+
+setTranslatedDescription("advancements.stage3.buildcraft.description")
+
+setParent("triumph:stage3/circuitboard")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("buildcraftcore:engine")
+
+//Rewards
+setRewardExperience(8)

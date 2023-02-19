@@ -1,0 +1,15 @@
+setTranslatedTitle("advancements.stage2.carminitereactor.title")
+
+setIcon("twilightforest:tower_device", 12)
+
+setTranslatedDescription("advancements.stage2.carminitereactor.description")
+
+setParent("triumph:stage2/twilight")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("twilightforest:tower_device", 12)
+
+//Rewards
+setRewardExperience(8)

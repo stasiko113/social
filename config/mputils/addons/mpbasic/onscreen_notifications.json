@@ -1,0 +1,65 @@
+{
+	"onScreenNotifications": [
+		{
+			"id": "darkosto",
+			"soundlocation": "minecraft:entity.player.levelup",
+			"lines": [
+				"§9§nС днем ​​рождения!!!",
+				"§2С Днем рожденья тебя!",
+				"§2С Днем рожденья тебя!",
+				"§5С днем ​​рождения, Darkosto!",
+				"§2С Днем рожденья тебя!"
+			]
+		},
+		{
+			"id": "example",
+			"soundlocation": "minecraft:entity.creeper.primed",
+			"lines": [
+				"§c§nBoom!!!",
+				"§eЯ напугал тебя?"
+			]
+		},
+		{
+			"id": "stage_one",
+			"lines": [
+				"§c§nДобро пожаловать в",
+				"§eЭпоху 1"
+			]
+		},
+		{
+			"id": "stage_two",
+			"lines": [
+				"§c§nДобро пожаловать в",
+				"§eЭпоху 2"
+			]
+		},
+		{
+			"id": "stage_three",
+			"lines": [
+				"§c§nДобро пожаловать в",
+				"§eЭпоху 3"
+			]
+		},
+		{
+			"id": "stage_four",
+			"lines": [
+				"§c§nДобро пожаловать в",
+				"§eЭпоху 4"
+			]
+		},
+		{
+			"id": "stage_five",
+			"lines": [
+				"§c§nДобро пожаловать в",
+				"§eЭпоху 5"
+			]
+		},
+		{
+			"id": "stage_creative",
+			"lines": [
+				"§c§nДобро пожаловать в",
+				"§eТворческую эпоху"
+			]
+		}
+	]
+}

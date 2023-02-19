@@ -1,0 +1,17 @@
+setTranslatedTitle("advancements.stage2.mapping.title")
+
+setIcon("minecraft:filled_map")
+
+setTranslatedDescription("advancements.stage2.mapping.description")
+
+setParent("triumph:stage2/extendedcraftingbasic")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("consumed", "minecraft:consume_item")
+criteria.setItem("extraplanets:apple_iron", 0)
+
+//Rewards
+setRewardFunction("triumph:advanced_mapping")
+setRewardFunction("triumph:prestige_add_100")
+setRewardExperience(8)

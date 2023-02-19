@@ -1,0 +1,15 @@
+setTranslatedTitle("advancements.stage0.gear.title")
+
+setIcon("betterwithmods:material")
+
+setTranslatedDescription("advancements.stage0.gear.description")
+
+setParent("triumph:stage0/wheel")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("betterwithmods:material", 0)
+
+//Rewards
+setRewardExperience(4)

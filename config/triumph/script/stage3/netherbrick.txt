@@ -1,0 +1,15 @@
+setTranslatedTitle("advancements.stage3.netherbrick.title")
+
+setIcon("minecraft:netherbrick")
+
+setTranslatedDescription("advancements.stage3.netherbrick.description")
+
+setParent("triumph:stage3/potash")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("minecraft:netherbrick")
+
+//Rewards
+setRewardExperience(8)

@@ -1,0 +1,15 @@
+setTranslatedTitle("advancements.stage3.drawercontroller.title")
+
+setIcon("storagedrawers:controller")
+
+setTranslatedDescription("advancements.stage3.drawercontroller.description")
+
+setParent("triumph:stage3/workbench")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("hasRock", "minecraft:inventory_changed")
+criteria.setItem("storagedrawers:controller")
+
+//Rewards
+setRewardExperience(8)

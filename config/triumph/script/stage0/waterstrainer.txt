@@ -1,0 +1,18 @@
+setTranslatedTitle("advancements.stage0.waterstrainer.title")
+
+setIcon("waterstrainer:strainer_survivalist_dense", 0)
+
+setTranslatedDescription("advancements.stage0.waterstrainer.description")
+
+setParent("triumph:stage0/workstump")
+setRequiresParent(true)
+
+//Criteria
+criteria1 = addCriteria("hasRock1", "minecraft:inventory_changed")
+criteria1.setItem("waterstrainer:strainer_survivalist_dense", 0)
+
+criteria2 = addCriteria("hasRock2", "minecraft:inventory_changed")
+criteria2.setItem("waterstrainer:strainer_base", 0)
+
+//Rewards
+setRewardExperience(8)

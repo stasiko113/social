@@ -1,0 +1,15 @@
+setTranslatedTitle("advancements.stage2.drawertable.title")
+
+setIcon("storagedrawers:framingtable")
+
+setTranslatedDescription("advancements.stage2.drawertable.description")
+
+setParent("triumph:stage2/root")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("crafted", "minecraft:inventory_changed")
+criteria.setItem("storagedrawers:framingtable")
+
+//Rewards
+setRewardExperience(8)
