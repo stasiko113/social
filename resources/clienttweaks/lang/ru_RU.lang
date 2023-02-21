@@ -1,9 +1,0 @@
-#Translated by LeoganPro
-
-key.clienttweaks.disable_step_assist=Вкл/Выкл Автопрыжок
-key.clienttweaks.hide_offhand_item=Скрыть/Показать вторую руку
-key.categories.clienttweaks=Client Tweaks
-clienttweaks.on=ВКЛ
-clienttweaks.off=ВЫКЛ
-gui.clienttweaks.mipmapConfirm=Вы действительно хотите изменить MIP-уровень?
-gui.clienttweaks.mipmapWarning=Это может занять до нескольких минут с большим количеством установленных модов.
